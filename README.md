@@ -53,3 +53,11 @@ conda install git numpy scipy pandas matplotlib notebook
 Install the project in development mode by running `python setup.py develop`. If you use notebooks, this will ensure that you can access your modules.
 
 Edit this file to describe your actual project.
+
+## Project Description
+
+Experiment Description:
+
+This mouse received an injection of AAV1.Syn.Flex.GCaMP6s.WPRE lot CS0215 designed by the GENIE Project, Janelia Farms, and produced by the University of Pennsylvania Vector Core on postnatal day 36 (P36). The mouse then received surgery for head-plate implantation and a craniotomy for glass window placement over visual cortex at P59. A metal head-plate was cemented to the skull and a 5 mm circular craniotomy was made. Two 5 mm and one 8 mm circular glass cover slips were glued together and fitted into the craniotomy. The 8 mm coverslip rested against the surface of the skull and was cemented in place.
+
+The mouse was handled and habituated to head-fixation and the imaging rig for 3 weeks before experiments began. During the example experiment, the animal was permitted to run on a freely-rotating disc while visual stimuli were presented to the eye contralateral to the imaged region. Visual stimuli and software for tracking the eye and motion of the mouse were created in Python. Stimuli consisted of drifting sinusoidal gratings presented at 80% contrast shown in random order for all permutations of 5 spatial frequencies (SF), 5 temporal frequencies (TF), and 8 orientations (0° to 315° in 45° steps). Stimuli were presented 8 times each, full-field, for 3 seconds with a mean luminance inter-stimulus-interval of 2 seconds on an LCD monitor spanning 60° in elevation and 130° in azimuth. The mouse’s eye was positioned 22 cm away from the center of the monitor. Image data were acquired using a custom built two-photon microscope with resonant and galvo scanners, and a MaiTai femtosecond laser (Spectra-Physics) at 910 nm. Images were collected at approximately 30 Hz with 512 lines per frame. The image area is approximately 300 micrometers below the pia, which corresponds to layer 4 in the windowed adult mice.
