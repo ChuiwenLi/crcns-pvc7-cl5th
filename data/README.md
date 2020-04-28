@@ -1,17 +1,22 @@
 
 # How to retrieve data set:
 
-https://portal.nersc.gov/project/crcns/download/pvc-7. 
 First, make sure you are have an account at at crcns.org. If you do not, you can request one https://crcns.org/request-account/fg_base_view_p3.
-Download all the files in the same directory as the notebook. 
-Sample notebook is in /pvc-7/pvc7_test_cl5th.ipynb
 
+Download all the data files in the same directory at the same level as the notebook.
+https://portal.nersc.gov/project/crcns/download/pvc-7. 
+
+Sample notebook is in the top level of the repository and is named "pvc7_test_cl5th.ipynb"
+
+Only the following files were used in the sample notebook:
+    - concat_31Hz.h5
+    - stimulus.csv
 
 
 ## load in data set into notebook - sample code (included in the sample notebook)
-With Anaconda:
+- With Anaconda:
 
-conda install h5py
+conda install h5py # if you haven't installed h5py yet.
 
 import h5py
 filename = 'data/concat_31Hz.h5'
