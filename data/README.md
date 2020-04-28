@@ -3,7 +3,8 @@
 
 https://portal.nersc.gov/project/crcns/download/pvc-7. 
 First, make sure you are have an account at at crcns.org. If you do not, you can request one https://crcns.org/request-account/fg_base_view_p3.
-Download all the files in the same directory as the notebook.
+Download all the files in the same directory as the notebook. 
+Sample notebook is in /pvc-7/pvc7_test_cl5th.ipynb
 
 
 
