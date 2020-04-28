@@ -1,8 +1,13 @@
 
-Edit this file to describe how to retrieve the data set. Except for very small data files, it's not recommended to check data into version control.
+# How to retrieve data set:
 
-https://portal.nersc.gov/project/crcns/download/pvc-7. Download all the files in the same directory.
+https://portal.nersc.gov/project/crcns/download/pvc-7. 
+First, make sure you are have an account at at crcns.org. If you do not, you can request one https://crcns.org/request-account/fg_base_view_p3.
+Download all the files in the same directory as the notebook.
 
+
+
+## load in data set into notebook - sample code (included in the sample notebook)
 With Anaconda:
 
 conda install h5py

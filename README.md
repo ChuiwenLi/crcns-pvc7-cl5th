@@ -54,7 +54,7 @@ Install the project in development mode by running `python setup.py develop`. If
 
 Edit this file to describe your actual project.
 
-## Project Description
+# Project Description
 
 Experiment Description:
 
